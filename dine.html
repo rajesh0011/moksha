@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+   <html>
+      <head>
+         <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <title>Moksha Spa</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+         <link rel="icon" type="image/png" href="images/favicon.png">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+         <link href="css/bootstrap.min.css" rel="stylesheet" />
+         <link href="css/owl.carousel.min.css" rel="stylesheet" />
+         <link href="css/owl.theme.default.min.css" rel="stylesheet" />
+         <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+         <link href="css/stylesheet.css" rel="stylesheet" />
+       
+      </head>
+      <body class="position-relative">
+         <header class="fixed-top clearHeader">
+            <div class="overlay-navigation">
+               <nav role="navigation" class="side-nav">
+                  <img src="images/fixed-header-logo.png" alt="" class="side-panel-logo" />
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="about-us.html">About Us</a></li>
+                     <li><a href="accomodation.html">ACCOMMODATION</a></li>
+                     <li><a href="dine.html" class="active">DINING</a></li>
+                     <li><a href="wellness.html">WELLNESS</a></li>
+                     <li><a href="experience.html">EXPERIENCES</a></li>
+                     <li><a href="wedding-and-events.html">WEDDINGS & EVENTS</a></li>
+                     <li><a href="packages&offers.html">PACKAGES</a></li>
+                     <li><a href="#">EXCLUSIVE OFFERS</a></li>
+                     <li><a href="#">EVENTS</a></li>
+                     <li><a href="gallery.html">GALLERY</a></li>
+                     <li><a href="#">BLOG</a></li>
+                     <li><a href="contact-us.html">Contact Us</a></li>
+                  </ul>
+                  <div class="nav-calender-section">
+                     <div class="enqiure-inner2">
+                        <div class="row">
+                           <div class="custom-form-outer-div2">
+                              <span>Check In</span>
+                              <div class="input-group date" data-provide="datepicker">
+                                 <input type="text" value="14|02|24" class="form-control">
+                                 <div class="input-group-addon">
+                                    <i class="fa fa-calendar-alt"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="custom-form-outer-div2">
+                              <span>Check Out</span>
+                              <div class="input-group date" data-provide="datepicker">
+                                 <input type="text" value="14|02|24" class="form-control">
+                                 <div class="input-group-addon">
+                                    <i class="fa fa-calendar-alt"></i>
+                                 </div>
+                              </div>
+                           </div>
+                           
+                           <div class="custom-form-outer-div3">
+                             <div class="inner-helaf-div">
+                                <span>Adults</span>
+                                <select class="form-select" aria-label="Default select example">
+                                   <option selected>1 Adults</option>
+                                   <option value="1">2 Adults</option>
+                                   <option value="2">3 Adults</option>
+                                   <option value="3">4 Adults</option>
+                                </select>
+                             </div>
+                             <div class="inner-helaf-div">
+                                <span>Children</span>
+                                <select class="form-select" aria-label="Default select example">
+                                   <option selected>1 Children</option>
+                                   <option value="1">2 Childrens</option>
+                                   <option value="2">3 Childrens</option>
+                                   <option value="3">4 Childrens</option>
+                                </select>
+                             </div>
+                          </div>
+                           <div class="custom-form-outer-div2 btn-div">
+                              <span>&nbsp;</span>
+                              <button type="submit" class="btn btn-primary w-100">Check Availability</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <span style="cursor: pointer;" class="cross-icon" onclick="closeNav()">
+                     <span>X</span>
+                  </span>
+               </nav>
+            </div>
+            <section class="container-fluid position-relative">
+               <div class="col-lg-12">
+                  <div class="row">
+                     <div class="col-lg-12 text-center">
+                        <div class="open-overlay">
+                           <div class="bar-block">
+                              <span class="bar-top"></span>
+                              <span class="bar-middle"></span>
+                              <span class="bar-bottom"></span>
+                           </div>
+                           <em>Menu</em>
+                        </div>
+                        <ul class="header-left-nav">
+                           <li>
+                              <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                           </li>
+                           <li>
+                              <a href="#">EN</a>
+                           </li>
+                        </ul>
+                        <a href="index.html" class="logo">
+                           <img src="images/moksha-logo.png" alt="" class="static-logo" />
+                           <img src="images/fixed-header-logo.png" alt="" class="fixed-logo" />
+                        </a>
+                        <ul class="header-right-nav">
+                           <li class="mobile-li">
+                              <a href="#" class="call-button"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                           </li>
+                           <li>
+                              <a href="#">log in</a>
+                           </li>
+                           <li>
+                              <a href="#" class="button-top">reserve</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </header>
+         <section class="top-slide">
+            <div class="container-fluid p-0">
+               <div class="video-section position-relative">
+                  <!-- <video playsinline autoplay muted loop id="myVideo" style="width: 100%;">
+                     <source src="images/web banner.mp4" type="video/mp4">
+                  </video>  -->
+                  <img src="images/dine-banner.jpg" alt="" style="width: 100%;" />
+               </div>
+            </div>
+         </section>
+         <!-- <section class="booking-form-section">
+            <article class="container">
+              <div class="enqiure-inner">
+                <div class="row">
+                   <div class="custom-form-outer-div">
+                      <span>Check In Date</span>
+                      <div class="input-group date" data-provide="datepicker">
+                         <input type="text" value="14|02|24" class="form-control">
+                         <div class="input-group-addon">
+                            <i class="fa fa-calendar-alt"></i>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="custom-form-outer-div">
+                      <span>Check Out Date</span>
+                      <div class="input-group date" data-provide="datepicker">
+                         <input type="text" value="14|02|24" class="form-control">
+                         <div class="input-group-addon">
+                            <i class="fa fa-calendar-alt"></i>
+                         </div>
+                      </div>
+                   </div>
+                   
+                   <div class="custom-form-outer-div">
+                     <div class="inner-helaf-div">
+                        <span>Adults</span>
+                        <select class="form-select" aria-label="Default select example">
+                           <option selected>02</option>
+                           <option value="1">03</option>
+                           <option value="2">04</option>
+                           <option value="3">05</option>
+                        </select>
+                     </div>
+                     <div class="inner-helaf-div">
+                        <span>Children</span>
+                        <select class="form-select" aria-label="Default select example">
+                           <option selected>02</option>
+                           <option value="1">03</option>
+                           <option value="2">04</option>
+                           <option value="3">05</option>
+                        </select>
+                     </div>
+                  </div>
+                   <div class="custom-form-outer-div btn-div">
+                      <span>&nbsp;</span>
+                      <button type="submit" class="btn btn-primary w-100">Check Availability</button>
+                   </div>
+                </div>
+             </div>
+            </article>
+          </section> -->
+         
+         <!-- about Us-->
+         <section class="main-upper">
+            <!-- welcome block starts -->
+            <article class="welcm-block">
+               <div class="container">
+                  <div class="col-12">
+                     <div class="row">
+                        <div class="col-lg-8 offset-lg-2 border-block text-center">
+                           <img src="images/mobile-right-lines-img.png" alt="" class="right-line-top-img" />
+                           <div class="section-subtitle2">DINE AT MOKSHA</div>
+                           <p class="baskervville-regular color-brown">
+                            With a multi-cuisine restaurant and bar, we invite our guests to indulge in an exceptional dining experience at one of the best hotels in Parwanoo, Himachal Pradesh. Our highly experienced chefs pay attention to detail and customize the meals for you. We have a range of variety for our fitness freaks based on their requirements hence making your meal luscious yet healthy.
+                           </p>
+                           <img src="images/mobile-left-lines-img.png" alt="" class="right-line-top-img" />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </article>
+         </section>
+         
+         
+        <section class="dine-main-block">
+         <article class="container">
+            <div class="row">
+                <div class="dine-info-main-heading">
+                    <h1><span>GLOBAL AND LOCAL CUISINE</span></h1>
+                 </div>
+            </div>
+            <div class="row bg-dark-n">
+                <div class="col-lg-6 no-padd">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <!-- <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div> -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/global-local-cuisine-img1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <!-- <div class="carousel-item">
+                            <img src="images/global-local-cuisine-img1.jpg" class="d-block w-100" alt="...">
+                            
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/global-local-cuisine-img1.jpg" class="d-block w-100" alt="...">
+                            
+                          </div> -->
+                        </div>
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button> -->
+                      </div>
+                </div>
+                <div class="col-lg-6 pad-100">
+                    <p class="baskervville-regular ft-16">
+                     Our world-class chefs bring you a blend of global flavours and local delicacies, using only the finest ingredients. By combining international tastes with locally sourced produce, every dish is both delicious and rich in regional tradition. Savour a diverse menu inspired by culinary traditions worldwide, all within the comfort of our hotel.
+                    </p>
+                </div>
+            </div>
+            
+         </article>
+         <article class="container voffset-8">
+            <div class="row">
+                <div class="dine-info-main-heading">
+                    <h1><span>RESTAURANT & BAR</span></h1>
+                 </div>
+            </div>
+            <div class="row bg-dark-n">
+                <div class="col-lg-6 no-padd">
+                    <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <!-- <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 4"></button> -->
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/restaurant-bar-img2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/restaurant-bar-img3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/restaurant-bar-img4.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-lg-6 pad-100">
+                    <p class="baskervville-regular ft-16">
+                     Our cosy restaurant and bar offer luxurious, comfortable spaces to unwind with family and friends or discuss business over a drink. Enjoy delicious cuisine at our stylish all-day dining restaurant. For a more exclusive vibe, relax and rejuvenate in our bar, featuring the finest wines, spirits, and single malts for a memorable experience.
+                    </p>
+                    <a href="images/Food-Menu-website.pdf" target="_blank" class="btn btn-secondary" download>Our Menu</a>
+                </div>
+            </div>
+            
+         </article>
+         <article class="container voffset-8">
+            <div class="row">
+                <div class="dine-info-main-heading">
+                    <h1><span>PRIVATE DINING</span></h1>
+                 </div>
+            </div>
+            <div class="row bg-dark-n">
+                <div class="col-lg-6 no-padd">
+                    <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <!-- <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/private-dining-img1.jpg" class="d-block w-100" alt="...">
+                            
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/private-dining-img2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-lg-6 pad-100">
+                    <p class="baskervville-regular ft-16">
+                     Our private dining offers a refined experience with top chefs and culinary artistry. Perfect for special occasions, intimate gatherings, or romantic evenings, we elevate your dining to new heights of sophistication and luxury. With personalised attention to every detail, our dedicated team ensures an unforgettable experience tailored to perfection.
+                    </p>
+                    <a href="javascript:void(0);" class="btn btn-secondary request-quote-data">REQUEST A CALLBACK</a>
+                </div>
+            </div>
+            
+         </article>
+
+         <article class="container voffset-8">
+            <div class="row">
+                <div class="dine-info-main-heading">
+                    <h1><span>POOLSIDE DINING</span></h1>
+                 </div>
+            </div>
+            <div class="row bg-dark-n">
+                <div class="col-lg-6 no-padd">
+                    <div id="carouselExampleCaptions4" class="carousel slide" data-bs-ride="carousel">
+                        <!-- <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div> -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/poolside-dining-img1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <!-- <div class="carousel-item">
+                            <img src="images/poolside-dining-img1.jpg" class="d-block w-100" alt="...">
+                            
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/poolside-dining-img1.jpg" class="d-block w-100" alt="...">
+                            
+                          </div> -->
+                        </div>
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button> -->
+                      </div>
+                </div>
+                <div class="col-lg-6 pad-100">
+                    <p class="baskervville-regular ft-16">
+                     Join us at our poolside dining area for a laid-back vibe where you can chill with loved ones over delectable cuisine and drinks. Dive into our poolside dining experience, where delicious cuisine meets a luxurious setting for a memorable culinary adventure. Whether it's relaxation, romance, or just good vibes, our poolside oasis is ready to charm you. Book now for unforgettable moments! 
+                    </p>
+                    <a href="images/Spa-Brochure-website.pdf" class="btn btn-secondary" target="_blank" download>Our Menu</a>
+                </div>
+            </div>
+            
+         </article>
+         <section class="subscribe-block voffset-11">
+            <article class="container">
+               <span class="label-p">STAY UP TO DATE WITH LATEST OFFERS AND PROMOTIONS</span>
+               <form class="subscribe-form">
+                  <input type="text" class="form-control">
+                  <button type="submit" class="btn btn-primary">SUBSCRIBE</button> 
+               </form>
+            </article>
+          </section>
+
+        </section>
+        
+        
+        
+        <section class="booking-form-section voffset-11" id="request-quote-bottom">
+         <article class="container">
+           <div class="enqiure-inner">
+             <div class="row">
+                <div class="custom-form-outer-div">
+                   <span>NAME</span>
+                   <input type="text" placeholder="" class="form-control border-bottom-dark">
+                </div>
+                <div class="custom-form-outer-div">
+                   <span>CONTACT NUMBER</span>
+                   <input type="text" placeholder="" class="form-control border-bottom-dark">
+                </div>
+                
+                 <div class="custom-form-outer-div">
+                     <span>EMAIL ADDRESS</span>
+                     <input type="text" placeholder="" class="form-control border-bottom-dark">
+                 </div>
+                <div class="custom-form-outer-div btn-div">
+                   <span>&nbsp;</span>
+                   <button type="submit" class="btn btn-primary w-100">REQUEST A CALLBACK</button>
+                </div>
+             </div>
+          </div>
+         </article>
+       </section>
+       <section class="value-block">
+         
+         <img src="images/line-texture2.png" alt="" class="custom-img-responsive" />
+       </section>
+
+       
+
+
+       <footer>
+        <article class="container">
+           <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+                 <img src="images/footer-logo.png" alt="" class="custom-img-responsive ftr-logo" />
+                 <p>
+                    Asia Resorts Limited <br/>Moksha Himalaya Spa Resort Parwanoo 173220<br/>Himachal Pradesh<br/>INDIA
+                 </p>
+              </div>
+              <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 border-left-white-with-padd">
+                 <ul class="footer-link1">
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">LOCATION</a></li>
+                    <li><a href="#">MEDIA & AWARDS</a></li>
+                    <li><a href="#">BROCHURES</a></li>
+                    <li><a href="#">CAREERS</a></li>
+                 </ul>
+                 <ul class="footer-link2">
+                    <li class="heading-li"><h5>RESORT</h5></li>
+                    <li><a href="#">ACCOMMODATIONS</a></li>
+                    <li><a href="#">DINING</a></li>
+                    <li><a href="#">SPA & WELLNESS</a></li>
+                    <li><a href="#">CELEBRATIONS</a></li>
+                    <li><a href="#">OFFERS</a></li>
+                 </ul>
+                 <ul class="footer-link2">
+                    <li class="heading-li"><h5>MORE INFORMATION</h5></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CANCELLATION POLICY</a></li>
+                    <li><a href="#">PRIVACY POLICY</a></li>
+                    <li><a href="#">COOKIE POLICY</a></li>
+                    <li><a href="#">FAQs</a></li>
+                 </ul>
+              </div>
+              <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12 border-left-white-with-padd padd-right-none">
+                 <ul class="footer-link3">
+                    <li><h5>CONTACT US</h5></li>
+                 </ul>
+                 <p class="ft-12">
+                    CHANDIGARH SALES OFFICE<br/> 
+                    <a href="tel:+91xxxxxxxx">+91 7900099842</a>  
+                 </p>
+                 <p class="ft-12">
+                    DELHI SALES<br/> 
+                    <a href="tel:+919971659991">79000-99842 </a><br/>
+                 </p>
+                 <p class="ft-12">
+                    <a href="#"><i class="fa fa-envelope"></i> info@example.com</a>
+                 </p>
+                 <p class="ft-12">
+                    <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Location</a>
+                 </p>
+                 <ul class="ftr-social-icons">
+                    <li>
+                       <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                       <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                       <a href="#"><i class='fab fa-twitter'></i></a>
+                    </li>
+                    <li>
+                       <a href="#"><i class="fa fa-envelope"></i></a>
+                    </li>
+                 </ul>
+              </div>
+           </div>
+        </article>
+      </footer>
+      
+       <section class="footer-bottom">
+            <article class="container">
+               <span>&copy; Your Company Name</span>
+            </article>
+       </section>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+         <script src="js/jquery.min.js"></script>
+         <script src="js/bootstrap.min.js"></script>
+         <script src="js/owl.carousel.js"></script>
+         <script src="js/bootstrap-datepicker.min.js"></script>
+         <script src="js/functions.js"></script>
+         <script>
+            
+         </script>
+      </body>
